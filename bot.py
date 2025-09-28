@@ -32,9 +32,9 @@ bot = telebot.TeleBot(API_TOKEN)
 # telegram link t.me/Ambassadorship_Programs_bot
 # telegram link for auto statr bot with button t.me/Ambassadorship_Programs_bot?start=1
 #get admin chat id with @userinfobot
-ADMIN_TELEGRAM_ID = 6772237358   #Testing  <-- replace with your Telegram user ID
+#ADMIN_TELEGRAM_ID = 6772237358   #Testing  <-- replace with your Telegram user ID
 
-#ADMIN_TELEGRAM_ID = 1610519395
+ADMIN_TELEGRAM_ID = 1610519395
 
 
 
@@ -113,3 +113,4 @@ def handle_code(message):
 if __name__ == "__main__":
     print("Bot is starting...")
     bot.infinity_polling()
+
